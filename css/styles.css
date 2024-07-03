@@ -23,13 +23,20 @@ body {
   margin: 0 auto;
 }
 
+.logo {
+  flex: 1;
+  text-align: left;
+}
+
 .logo img{
   height: 50px;
 }
 
 .nav-links {
+  flex: 2;
   list-style: none;
   display: flex;
+  justify-content: space-between;
   gap: 20px;
 }
 
@@ -79,7 +86,7 @@ section {
   height: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .navbar-container {
       flex-direction: column;
       align-items: flex-start;
@@ -89,6 +96,12 @@ section {
       flex-direction: column;
       width: 100%;
       gap: 10px;
+      /* justify-content: center; */
+      align-items: flex-start;
+  }
+
+  .nav-links a{
+    width: 100%;
   }
 
   .products {
