@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries</title>
+    <link rel="stylesheet" href="/css/cart.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/images/Nutrible.png" alt="Logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="groceries.html">Groceries</a></li>
+                <li><a href="fruits.html">Fruits</a></li>
+                <li><a href="vegetables.html">Vegetables</a></li>
+                <li><a href="dairy.html">Dairy</a></li>
+                <li><a href="juice.html">Juice</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="search-bar">
+            <input type="text" placeholder="Search for groceries...">
+            <button>Search</button>
+        </section>
+
+        <section class="groceries">
+            <h2>Groceries</h2>
+
+            <div class="groceries-section">
+                <h3>Fruits</h3>
+                <div class="products">
+                    <div class="product-card">
+                        <img src="path-to-apple.jpg" alt="Apple">
+                        <h4>Apple</h4>
+                        <p>$1.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="path-to-banana.jpg" alt="Banana">
+                        <h4>Banana</h4>
+                        <p>$0.50</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <!-- Add more products as needed -->
+                </div>
+            </div>
+
+            <div class="groceries-section">
+                <h3>Vegetables</h3>
+                <div class="products">
+                    <div class="product-card">
+                        <img src="path-to-carrot.jpg" alt="Carrot">
+                        <h4>Carrot</h4>
+                        <p>$0.80</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="path-to-tomato.jpg" alt="Tomato">
+                        <h4>Tomato</h4>
+                        <p>$0.60</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <!-- Add more products as needed -->
+                </div>
+            </div>
+
+            <div class="groceries-section">
+                <h3>Dairy</h3>
+                <div class="products">
+                    <div class="product-card">
+                        <img src="path-to-milk.jpg" alt="Milk">
+                        <h4>Milk</h4>
+                        <p>$2.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="path-to-cheese.jpg" alt="Cheese">
+                        <h4>Cheese</h4>
+                        <p>$3.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <!-- Add more products as needed -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/scripts/cart.js"></script>
+</body>
+</html>
